@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle node-require",
-        "command": "node-require:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
@@ -15,8 +7,8 @@
           "label": "node-require",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "node-require:toggle"
+              "label": "Add require",
+              "command": "node-require:add-require"
             }
           ]
         }

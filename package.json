@@ -5,7 +5,7 @@
   "description": "Quickly insert require statements from package.json",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "node-require:toggle"
+    "atom-workspace": "node-require:add-require"
   },
   "repository": "https://github.com/countergram/atom-node-require",
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-p": "node-require:toggle"
+    "ctrl-alt-p": "node-require:add-require"
   }
 }
