@@ -1,7 +1,7 @@
 {
   "name": "node-require",
   "main": "./lib/node-require",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Quickly insert require statements from package.json",
   "keywords": [],
   "activationCommands": {
