@@ -1,0 +1,34 @@
+{
+  "name": "node-require",
+  "main": "./lib/node-require",
+  "version": "1.0.0",
+  "description": "Quickly insert require statements from package.json",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "node-require:toggle"
+  },
+  "repository": "https://github.com/countergram/atom-node-require",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  },
+  "semistandard": {
+    "globals": [
+      "describe",
+      "it",
+      "atom",
+      "expect",
+      "beforeEach",
+      "runs",
+      "jasmine",
+      "waitsForPromise"
+    ]
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "temp": "^0.8.3"
+  }
+}
